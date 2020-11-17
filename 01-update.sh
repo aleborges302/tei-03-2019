@@ -1,5 +1,4 @@
 #!/bin/bash
-clear
 
 echo -e "Atualizando as listas do Apt"
     apt update
@@ -17,3 +16,6 @@ echo -e "Removendo software desnecessario"
    apt -y autoremove
    apt -y autoremove
    apt clean
+read
+sleed 5
+reboot
