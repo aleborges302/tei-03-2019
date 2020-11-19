@@ -9,7 +9,7 @@ echo -e "Instalando o PHPMyAdmin no Ubuntu Server"
     #para se logar no PhpMyAdmin, sendo necessário criar um novo usuário
     #sudo mysql -u root -p
     #CREATE USER 'alexandre'@'localhost' IDENTIFIED WITH mysql_native_password BY '123@senac';
-    #GRANT ALL PRIVILEGES ON *.* TO 'vaamonde'@'localhost';
+    #GRANT ALL PRIVILEGES ON *.* TO 'alexandre'@'localhost';
     #FLUSH PRIVILEGES;
     #EXIT
     apt -y install phpmyadmin
