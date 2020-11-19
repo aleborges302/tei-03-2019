@@ -8,7 +8,7 @@ echo -e "Instalando o PHPMyAdmin no Ubuntu Server"
     #obs: na versão >= 8.0 do MySQL não utilizamos mais o usuário root
     #para se logar no PhpMyAdmin, sendo necessário criar um novo usuário
     #sudo mysql -u root -p
-    #CREATE USER 'vaamonde'@'localhost' IDENTIFIED WITH mysql_native_password BY 'vaamonde';
+    #CREATE USER 'alexandre'@'localhost' IDENTIFIED WITH mysql_native_password BY '123@senac';
     #GRANT ALL PRIVILEGES ON *.* TO 'vaamonde'@'localhost';
     #FLUSH PRIVILEGES;
     #EXIT
